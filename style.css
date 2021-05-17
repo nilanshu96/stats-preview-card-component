@@ -29,6 +29,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  position: relative;
+}
+
 main {
   display: flex;
   height: 100vh;
@@ -37,15 +47,65 @@ main {
 .card {
   display: flex;
   margin: auto;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-family: var(--font-family-lexend-deca);
 }
 
 .card > * {
-  flex: 1 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 6rem;
+}
+
+.text {
+  padding: 3rem;
 }
 
 .image {
-  background: url("./images/image-header-desktop.jpg") no-repeat center center
-    fixed;
+  background: url("./images/image-header-desktop.jpg") no-repeat;
+  display: flex;
   background-size: cover;
   overflow: hidden;
+}
+
+.image__tint {
+  height: 100%;
+  width: 100%;
+  background-color: var(--soft-violet);
+  opacity: 0.5;
+}
+
+.main__heading {
+  font-size: 2rem;
+  font-family: var(--font-family-inter);
+  font-weight: var(--bold);
+}
+
+.main__heading-highlight {
+    color: var(--soft-violet);
+}
+
+.main__paragraph {
+    width: 90%;
+    margin: 1rem 0 3rem 0;
+    color: var(--transparent-white-1);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    gap: 2rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--transparent-white-1);
+}
+
+.stat__heading {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--white);
+    font-weight: var(--bold);
 }

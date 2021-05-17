@@ -56,11 +56,11 @@ main {
 .card > * {
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 6rem;
+  flex-basis: 8rem;
 }
 
 .text {
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .image {
@@ -89,7 +89,7 @@ main {
 
 .main__paragraph {
     width: 90%;
-    margin: 1rem 0 3rem 0;
+    margin: 2rem 0 4rem 0;
     color: var(--transparent-white-1);
 }
 

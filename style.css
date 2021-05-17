@@ -44,20 +44,30 @@ main {
   height: 100vh;
 }
 
-.card {
+/* .card {
   display: flex;
   margin: auto;
   background-color: var(--dark-desaturated-blue);
   border-radius: 0.5rem;
   overflow: hidden;
   font-family: var(--font-family-lexend-deca);
-}
+} */
 
-.card > * {
+.card {
+    display: grid;
+    margin: auto;
+    background-color: var(--dark-desaturated-blue);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    grid-template-columns: repeat(2, minmax(250px, 500px));
+    font-family: var(--font-family-lexend-deca);
+  }
+
+/* .card > * {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 8rem;
-}
+} */
 
 .text {
   padding: 4rem;

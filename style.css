@@ -104,7 +104,7 @@
   font-weight: var(--bold);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
  
   .card {
     margin-top: 2rem;

@@ -69,17 +69,15 @@ main {
   flex-basis: 8rem;
 } */
 
-.card > * {
-  grid-row: 1/2;
-}
-
 .text {
   grid-column: 1/2;
+  grid-row: 1/2;
   padding: 4rem;
 }
 
 .image {
   grid-column: 2/3;
+  grid-row: 1/2;
   background: url("./images/image-header-desktop.jpg") no-repeat;
   display: flex;
   height: 100%;

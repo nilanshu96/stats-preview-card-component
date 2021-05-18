@@ -53,7 +53,7 @@ I learnt working with css grid and flexbox. Most importantly I've learnt what is
 
 ### Continued development
 
-I'll be working to master flex and grid layout as I still am taking a lot of time to come with solutions
+I'll be working to master flex and grid layout as I am still taking a lot of time to come up with solutions
 
 ### Useful resources
 
@@ -62,5 +62,5 @@ I'll be working to master flex and grid layout as I still am taking a lot of tim
 ## Author
 
 - Website - [Nilanshu V Rajmane](https://github.com/nilanshu96)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nilanshu96)
-- Twitter - [@yourusername](https://www.twitter.com/nilanshu96)
+- Frontend Mentor - [@nilanshu96](https://www.frontendmentor.io/profile/nilanshu96)
+- Twitter - [@nilanshu96](https://www.twitter.com/nilanshu96)

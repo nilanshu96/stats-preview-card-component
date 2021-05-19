@@ -38,7 +38,7 @@
   background-color: var(--dark-desaturated-blue);
   border-radius: 0.5rem;
   overflow: hidden;
-  grid-template-columns: repeat(2, minmax(250px, 500px));
+  grid-template-columns: repeat(2, 500px);
   font-family: var(--font-family-lexend-deca);
 }
 
@@ -107,7 +107,6 @@
 }
 
 @media screen and (max-width: 1024px) {
- 
   .card {
     margin-top: 2rem;
     margin-bottom: 2rem;

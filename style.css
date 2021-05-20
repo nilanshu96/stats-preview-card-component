@@ -41,20 +41,12 @@
 
 .image {
   background: url("./images/image-header-desktop.jpg") no-repeat;
-  display: flex;
-  align-items: stretch;
+  background-color: var(--soft-violet);
+  background-blend-mode: multiply;
   flex: 1 1 50%;
   background-size: cover;
   background-position: center right;
-  overflow: hidden;
-}
-
-.image__tint {
-  height: 100%;
-  width: 100%;
-  background-color: var(--soft-violet);
-  opacity: 0.8;
-  mix-blend-mode: multiply;
+  
 }
 
 .main__heading {
@@ -102,8 +94,9 @@
 
   .image {
     background: url(./images/image-header-mobile.jpg) no-repeat;
+    background-color: var(--soft-violet);
     background-size: cover;
-    height: 200px; /* image_tint wasn't getting height 100% in chrome wihtout a height property*/
+    background-position: center right;
     min-height: 200px;
   }
 
